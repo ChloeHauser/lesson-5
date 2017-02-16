@@ -13,7 +13,6 @@ body {
 }
 
 #header {
-    width:100%;
     background-color:none;
     min-height: 80px; 
 }
@@ -27,7 +26,6 @@ body {
 }
 
 #nav {
-    width:100%;
     background-color:#004fb2;
     min-height: 80px;
     font-family:'lato', sans-serif;
@@ -35,33 +33,38 @@ body {
 }
 #nav > ul {
     text-align:center;
-    padding: 0;
+    padding: 15px 0 15px 0;
     margin:0;
-    transform: translateY(50%)
 }
 
 #nav > ul > button {
     background-color: #9D3A37;
-    min-width: 120px;
+    min-width: 178px;
     color: #fff;
     border: none;
     padding:15px 32px;
+    border-bottom: 2px solid #004fb2;
 }
 
 #nav > ul > button:hover {
-    min-width: 120px;
-    color: #fff;
     background-color:#8A0F0D;
-    border: none;
-    padding:15px 32px;
-    transition: background-color .25s
 }
+/*
 .menu {
     display:flex;
     background:#d8e9f9;
     justify-content: space-around;
     list-style: none;
     margin:0;
+    position: relative;
+    transform: translateY(100%);
+    font-family: 'lato', sans-serif;
+}
+*/
+
+/*
+.menu > li {
+    margin: 0 15px 0 15px;
 }
 #middle-wrapper-width {
     display: flex;
@@ -71,15 +74,18 @@ body {
 }
 
 #middle-wrapper {
-       
+        background-color: none;
+        margin: 0 auto;
 }
+*/
 .side-by-side {
-    display: flex;
+    
 }
 
 .image-content >img {
     max-width: 200px;
     border-radius: 50%;
+    border: 4px #2b88ff solid;
 }
 
 .image-content > h4 {
@@ -95,14 +101,16 @@ body {
 .image-content > h4 > a:hover {
     color: #8A0F0D;
 }
+#main-content-wrapper {
+    background-color: #fff;
+}
 #main-content-wrapper .image-content {
     text-align: center;
-    width: 50%;
+    margin: 0 auto;
     margin-top: 50px;
 }
 #main-content-wrapper article {
-    width: 50%;
-    margin-top: 100px;
+   text-align:center;
 }
 
 #main-content-wrapper article h2 {
@@ -125,9 +133,10 @@ body {
 }
 
 #aside-content-wrapper {
-    background-color:white;
-    width:35%;
+    background-color:plum;
     font-family: 'lato', sans-serif;
+    background-color: #fff;
+    margin-top: 50px;
 }
 #aside-right {
     margin: 0 50px 0 8px;
@@ -162,6 +171,7 @@ body {
     background-image: url(img/person-apple-laptop-notebook.jpg);
     border-top:5px #b2790F solid;
     border-bottom:5px #004fb2 solid;
+    text-align: center; 
 }
 #favorite-sites ul {
    list-style-type:none;
@@ -181,9 +191,6 @@ footer > h1 {
     margin:0;
     transform: translateY(50%);
 }
-h
-
-
 
 
 
